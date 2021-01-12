@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'GEOSwiftMapboxGL' do
   pod 'GEOSwift', '~> 8.0'
-  pod 'Mapbox-iOS-SDK', '~> 6.0'
+  pod 'Mapbox-iOS-SDK', '~> 5.0'
 end
 
 target 'GEOSwiftMapboxGLTests' do

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F41161864D62800802D55AB /* Pods_GEOSwiftMapboxGLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271FA61624BE9448B8FC536C /* Pods_GEOSwiftMapboxGLTests.framework */; };
 		4923DDB025A16F1D006C646D /* CLLocationCoordinate2D+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923DDAF25A16F1D006C646D /* CLLocationCoordinate2D+Equatable.swift */; };
 		49F34ED725A2CDC8007F7170 /* GEOSwiftMapboxGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F34ED625A2CDC8007F7170 /* GEOSwiftMapboxGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DF3A6F13BA744362BEF2CBF /* BuildFile in Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Weak, ); }; };
 		81E4A0711F0C700F0073186F /* GEOSwift+MapboxGL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4A0701F0C700F0073186F /* GEOSwift+MapboxGL.swift */; };
-		920156DEAED34A1B20C2B7E6 /* Pods_GEOSwiftMapboxGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4D65F51B322334180273FF /* Pods_GEOSwiftMapboxGL.framework */; };
+		9F01CAA168601DADBF6D1B86 /* Pods_GEOSwiftMapboxGLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C40FB26A4BEA54F5FBD565 /* Pods_GEOSwiftMapboxGLTests.framework */; };
+		B4CD3448381ED4BB5B14901A /* Pods_GEOSwiftMapboxGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA12133BEBCCD3CD96425DA1 /* Pods_GEOSwiftMapboxGL.framework */; };
 		CD20F1DD1B2830700045D8FD /* GEOSwiftMapboxGL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD2299841B10B506002C19AE /* GEOSwiftMapboxGL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD22998F1B10B506002C19AE /* GEOSwiftMapboxGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2299841B10B506002C19AE /* GEOSwiftMapboxGL.framework */; };
 		CDB7EC051B287CE70055835C /* GEOSwift+MapboxGLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB7EC041B287CE70055835C /* GEOSwift+MapboxGLTests.swift */; };
@@ -42,20 +42,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		271FA61624BE9448B8FC536C /* Pods_GEOSwiftMapboxGLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEOSwiftMapboxGLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0869A2C6527F022CA137E24B /* Pods-GEOSwiftMapboxGL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSwiftMapboxGL.debug.xcconfig"; path = "Target Support Files/Pods-GEOSwiftMapboxGL/Pods-GEOSwiftMapboxGL.debug.xcconfig"; sourceTree = "<group>"; };
 		4923DDAF25A16F1D006C646D /* CLLocationCoordinate2D+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Equatable.swift"; sourceTree = "<group>"; };
 		49F34ED625A2CDC8007F7170 /* GEOSwiftMapboxGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOSwiftMapboxGL.h; sourceTree = "<group>"; };
-		7453BDA3D41142DB76361201 /* Pods-GEOSwiftMapboxGL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSwiftMapboxGL.release.xcconfig"; path = "Target Support Files/Pods-GEOSwiftMapboxGL/Pods-GEOSwiftMapboxGL.release.xcconfig"; sourceTree = "<group>"; };
+		5BB2697D3BB15590484B108A /* Pods-GEOSwiftMapboxGLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSwiftMapboxGLTests.debug.xcconfig"; path = "Target Support Files/Pods-GEOSwiftMapboxGLTests/Pods-GEOSwiftMapboxGLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B39B1D18764F09022F4B846 /* Pods-GEOSwiftMapboxGLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSwiftMapboxGLTests.release.xcconfig"; path = "Target Support Files/Pods-GEOSwiftMapboxGLTests/Pods-GEOSwiftMapboxGLTests.release.xcconfig"; sourceTree = "<group>"; };
 		81E4A0701F0C700F0073186F /* GEOSwift+MapboxGL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GEOSwift+MapboxGL.swift"; sourceTree = "<group>"; };
 		81E4A0721F0C70790073186F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GEOSwiftMapboxGL/Info.plist; sourceTree = SOURCE_ROOT; };
-		93D58A4845B7F1FC4513E52F /* Pods-GEOSwiftMapboxGLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSwiftMapboxGLTests.debug.xcconfig"; path = "Target Support Files/Pods-GEOSwiftMapboxGLTests/Pods-GEOSwiftMapboxGLTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B490EC6AD7B2D0B81B11F492 /* Pods-GEOSwiftMapboxGL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSwiftMapboxGL.debug.xcconfig"; path = "Target Support Files/Pods-GEOSwiftMapboxGL/Pods-GEOSwiftMapboxGL.debug.xcconfig"; sourceTree = "<group>"; };
-		BB4D65F51B322334180273FF /* Pods_GEOSwiftMapboxGL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEOSwiftMapboxGL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF4BF3D45E0287ACD32E45A /* Pods-GEOSwiftMapboxGLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSwiftMapboxGLTests.release.xcconfig"; path = "Target Support Files/Pods-GEOSwiftMapboxGLTests/Pods-GEOSwiftMapboxGLTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA13ACF39858DD093AD43C83 /* Pods-GEOSwiftMapboxGL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSwiftMapboxGL.release.xcconfig"; path = "Target Support Files/Pods-GEOSwiftMapboxGL/Pods-GEOSwiftMapboxGL.release.xcconfig"; sourceTree = "<group>"; };
+		C0C40FB26A4BEA54F5FBD565 /* Pods_GEOSwiftMapboxGLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEOSwiftMapboxGLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2299841B10B506002C19AE /* GEOSwiftMapboxGL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GEOSwiftMapboxGL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD22998E1B10B506002C19AE /* GEOSwiftMapboxGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEOSwiftMapboxGLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2299961B10B506002C19AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDB7EC041B287CE70055835C /* GEOSwift+MapboxGLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GEOSwift+MapboxGLTests.swift"; sourceTree = "<group>"; };
+		DA12133BEBCCD3CD96425DA1 /* Pods_GEOSwiftMapboxGL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEOSwiftMapboxGL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				920156DEAED34A1B20C2B7E6 /* Pods_GEOSwiftMapboxGL.framework in Frameworks */,
+				B4CD3448381ED4BB5B14901A /* Pods_GEOSwiftMapboxGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,20 +73,29 @@
 			files = (
 				CD22998F1B10B506002C19AE /* GEOSwiftMapboxGL.framework in Frameworks */,
 				7DF3A6F13BA744362BEF2CBF /* BuildFile in Frameworks */,
-				0F41161864D62800802D55AB /* Pods_GEOSwiftMapboxGLTests.framework in Frameworks */,
+				9F01CAA168601DADBF6D1B86 /* Pods_GEOSwiftMapboxGLTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CFD49C61DFC96C846C6DBC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA12133BEBCCD3CD96425DA1 /* Pods_GEOSwiftMapboxGL.framework */,
+				C0C40FB26A4BEA54F5FBD565 /* Pods_GEOSwiftMapboxGLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE175575FD135CECE9699D1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B490EC6AD7B2D0B81B11F492 /* Pods-GEOSwiftMapboxGL.debug.xcconfig */,
-				7453BDA3D41142DB76361201 /* Pods-GEOSwiftMapboxGL.release.xcconfig */,
-				93D58A4845B7F1FC4513E52F /* Pods-GEOSwiftMapboxGLTests.debug.xcconfig */,
-				BEF4BF3D45E0287ACD32E45A /* Pods-GEOSwiftMapboxGLTests.release.xcconfig */,
+				0869A2C6527F022CA137E24B /* Pods-GEOSwiftMapboxGL.debug.xcconfig */,
+				AA13ACF39858DD093AD43C83 /* Pods-GEOSwiftMapboxGL.release.xcconfig */,
+				5BB2697D3BB15590484B108A /* Pods-GEOSwiftMapboxGLTests.debug.xcconfig */,
+				7B39B1D18764F09022F4B846 /* Pods-GEOSwiftMapboxGLTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -118,7 +127,7 @@
 				CD2299941B10B506002C19AE /* GEOSwiftMapboxGLTests */,
 				CD6533B21B0E0DFF00DE6D84 /* Products */,
 				AE175575FD135CECE9699D1C /* Pods */,
-				E727375004E2C0E3EEF2089A /* Frameworks */,
+				6CFD49C61DFC96C846C6DBC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,15 +138,6 @@
 				CD22998E1B10B506002C19AE /* GEOSwiftMapboxGLTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E727375004E2C0E3EEF2089A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BB4D65F51B322334180273FF /* Pods_GEOSwiftMapboxGL.framework */,
-				271FA61624BE9448B8FC536C /* Pods_GEOSwiftMapboxGLTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD22999D1B10B506002C19AE /* Build configuration list for PBXNativeTarget "GEOSwiftMapboxGL" */;
 			buildPhases = (
-				62A7A265A251663EAA88D507 /* [CP] Check Pods Manifest.lock */,
+				7CC936CADD673163BEB9949D /* [CP] Check Pods Manifest.lock */,
 				49F34EDA25A2CE56007F7170 /* Swiftlint */,
 				CD2299811B10B506002C19AE /* Headers */,
 				CD22997F1B10B506002C19AE /* Sources */,
@@ -178,12 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD2299A11B10B506002C19AE /* Build configuration list for PBXNativeTarget "GEOSwiftMapboxGLTests" */;
 			buildPhases = (
-				075BDE9DDBD28CC47ED492A0 /* [CP] Check Pods Manifest.lock */,
+				9074D150D802E4384E854E1E /* [CP] Check Pods Manifest.lock */,
 				CD22998A1B10B506002C19AE /* Sources */,
 				CD22998B1B10B506002C19AE /* Frameworks */,
 				CD22998C1B10B506002C19AE /* Resources */,
 				CD20F1DC1B2830600045D8FD /* CopyFiles */,
-				E3F34168A69072FEEEB43BE5 /* [CP] Embed Pods Frameworks */,
+				5FDFF4E34196B22A2BBAB3CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,28 +254,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		075BDE9DDBD28CC47ED492A0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GEOSwiftMapboxGLTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		49F34EDA25A2CE56007F7170 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -296,25 +274,7 @@
 			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint autocorrect\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		62A7A265A251663EAA88D507 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GEOSwiftMapboxGL-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3F34168A69072FEEEB43BE5 /* [CP] Embed Pods Frameworks */ = {
+		5FDFF4E34196B22A2BBAB3CC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,6 +296,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GEOSwiftMapboxGLTests/Pods-GEOSwiftMapboxGLTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC936CADD673163BEB9949D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GEOSwiftMapboxGL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9074D150D802E4384E854E1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GEOSwiftMapboxGLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -371,7 +375,7 @@
 /* Begin XCBuildConfiguration section */
 		CD22999E1B10B506002C19AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B490EC6AD7B2D0B81B11F492 /* Pods-GEOSwiftMapboxGL.debug.xcconfig */;
+			baseConfigurationReference = 0869A2C6527F022CA137E24B /* Pods-GEOSwiftMapboxGL.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -388,7 +392,7 @@
 		};
 		CD22999F1B10B506002C19AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7453BDA3D41142DB76361201 /* Pods-GEOSwiftMapboxGL.release.xcconfig */;
+			baseConfigurationReference = AA13ACF39858DD093AD43C83 /* Pods-GEOSwiftMapboxGL.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -405,7 +409,7 @@
 		};
 		CD2299A21B10B506002C19AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93D58A4845B7F1FC4513E52F /* Pods-GEOSwiftMapboxGLTests.debug.xcconfig */;
+			baseConfigurationReference = 5BB2697D3BB15590484B108A /* Pods-GEOSwiftMapboxGLTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GEOSwiftMapboxGLTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = geoswift.GEOSwiftMapboxGLTests;
@@ -415,7 +419,7 @@
 		};
 		CD2299A31B10B506002C19AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEF4BF3D45E0287ACD32E45A /* Pods-GEOSwiftMapboxGLTests.release.xcconfig */;
+			baseConfigurationReference = 7B39B1D18764F09022F4B846 /* Pods-GEOSwiftMapboxGLTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GEOSwiftMapboxGLTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = geoswift.GEOSwiftMapboxGLTests;
